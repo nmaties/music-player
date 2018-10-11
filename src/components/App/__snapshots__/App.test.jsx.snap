@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App is displayed fine 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <div
+    className="card border-orange"
+  >
+    <div
+      className="card-header bg-warning text-dark"
+    >
+      <em>
+        Songs Playlist
+      </em>
+    </div>
+    <table
+      className="table table-hover table-bordered table-black table-border-radius table-fixed text-warning"
+    >
+      <thead
+        className="text-darkorange"
+      >
+        <tr
+          className="text-center"
+        >
+          <th>
+            #
+          </th>
+          <th>
+            <input
+              className="form-control orange-input"
+              name="artist"
+              onChange={[Function]}
+              placeholder="Artist"
+              type="text"
+            />
+          </th>
+          <th>
+            Song 
+            <i
+              className="fas fa-music"
+            />
+          </th>
+          <th>
+            <input
+              className="form-control orange-input"
+              name="album"
+              onChange={[Function]}
+              placeholder="Album"
+              type="text"
+            />
+          </th>
+          <th>
+            Release Year
+          </th>
+          <th>
+            Format
+          </th>
+          <th
+            className="text-center"
+          >
+            Play/Pause
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="pagination-container"
+      >
+        <tr
+          className="text-center"
+        >
+          <td>
+            1
+          </td>
+          <td>
+            test 1
+          </td>
+          <td>
+            test 1
+          </td>
+          <td>
+            test 1
+          </td>
+          <td>
+            2018
+          </td>
+          <td>
+            .mp3
+          </td>
+          <td>
+            <div>
+              <audio>
+                <source
+                  src="http://docs.google.com/uc?export=open&id=sadas231231sa"
+                />
+              </audio>
+              <div
+                className="col-md-12 row"
+              >
+                <div
+                  className="audio-controls col-md-6"
+                >
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-play "
+                      onClick={[Function]}
+                    />
+                  </span>
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-pause filled-icon"
+                      onClick={[Function]}
+                    />
+                  </span>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <span>
+                    <input
+                      className="slider"
+                      max="100"
+                      min="0"
+                      name="volume"
+                      onChange={[Function]}
+                      step="1"
+                      type="range"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          className="text-center"
+        >
+          <td>
+            2
+          </td>
+          <td>
+            test 2
+          </td>
+          <td>
+            test 2
+          </td>
+          <td>
+            test 2
+          </td>
+          <td>
+            2018
+          </td>
+          <td>
+            .mp3
+          </td>
+          <td>
+            <div>
+              <audio>
+                <source
+                  src="http://docs.google.com/uc?export=open&id=sxaxasda31231"
+                />
+              </audio>
+              <div
+                className="col-md-12 row"
+              >
+                <div
+                  className="audio-controls col-md-6"
+                >
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-play "
+                      onClick={[Function]}
+                    />
+                  </span>
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-pause filled-icon"
+                      onClick={[Function]}
+                    />
+                  </span>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <span>
+                    <input
+                      className="slider"
+                      max="100"
+                      min="0"
+                      name="volume"
+                      onChange={[Function]}
+                      step="1"
+                      type="range"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          className="text-center"
+        >
+          <td>
+            3
+          </td>
+          <td>
+            test 3
+          </td>
+          <td>
+            test 3
+          </td>
+          <td>
+            test 3
+          </td>
+          <td>
+            2018
+          </td>
+          <td>
+            .mp3
+          </td>
+          <td>
+            <div>
+              <audio>
+                <source
+                  src="http://docs.google.com/uc?export=open&id=qeqweqsqdq"
+                />
+              </audio>
+              <div
+                className="col-md-12 row"
+              >
+                <div
+                  className="audio-controls col-md-6"
+                >
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-play "
+                      onClick={[Function]}
+                    />
+                  </span>
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-pause filled-icon"
+                      onClick={[Function]}
+                    />
+                  </span>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <span>
+                    <input
+                      className="slider"
+                      max="100"
+                      min="0"
+                      name="volume"
+                      onChange={[Function]}
+                      step="1"
+                      type="range"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`App is displayed fine when filtering by album 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <div
+    className="card border-orange"
+  >
+    <div
+      className="card-header bg-warning text-dark"
+    >
+      <em>
+        Songs Playlist
+      </em>
+    </div>
+    <table
+      className="table table-hover table-bordered table-black table-border-radius table-fixed text-warning"
+    >
+      <thead
+        className="text-darkorange"
+      >
+        <tr
+          className="text-center"
+        >
+          <th>
+            #
+          </th>
+          <th>
+            <input
+              className="form-control orange-input"
+              name="artist"
+              onChange={[Function]}
+              placeholder="Artist"
+              type="text"
+            />
+          </th>
+          <th>
+            Song 
+            <i
+              className="fas fa-music"
+            />
+          </th>
+          <th>
+            <input
+              className="form-control orange-input"
+              name="album"
+              onChange={[Function]}
+              placeholder="Album"
+              type="text"
+            />
+          </th>
+          <th>
+            Release Year
+          </th>
+          <th>
+            Format
+          </th>
+          <th
+            className="text-center"
+          >
+            Play/Pause
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="pagination-container"
+      >
+        <tr
+          className="text-center"
+        >
+          <td>
+            1
+          </td>
+          <td>
+            test 2
+          </td>
+          <td>
+            test 2
+          </td>
+          <td>
+            test 2
+          </td>
+          <td>
+            2018
+          </td>
+          <td>
+            .mp3
+          </td>
+          <td>
+            <div>
+              <audio>
+                <source
+                  src="http://docs.google.com/uc?export=open&id=http://docs.google.com/uc?export=open&id=sxaxasda31231"
+                />
+              </audio>
+              <div
+                className="col-md-12 row"
+              >
+                <div
+                  className="audio-controls col-md-6"
+                >
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-play "
+                      onClick={[Function]}
+                    />
+                  </span>
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-pause filled-icon"
+                      onClick={[Function]}
+                    />
+                  </span>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <span>
+                    <input
+                      className="slider"
+                      max="100"
+                      min="0"
+                      name="volume"
+                      onChange={[Function]}
+                      step="1"
+                      type="range"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`App is displayed fine when filtering by artist 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <div
+    className="card border-orange"
+  >
+    <div
+      className="card-header bg-warning text-dark"
+    >
+      <em>
+        Songs Playlist
+      </em>
+    </div>
+    <table
+      className="table table-hover table-bordered table-black table-border-radius table-fixed text-warning"
+    >
+      <thead
+        className="text-darkorange"
+      >
+        <tr
+          className="text-center"
+        >
+          <th>
+            #
+          </th>
+          <th>
+            <input
+              className="form-control orange-input"
+              name="artist"
+              onChange={[Function]}
+              placeholder="Artist"
+              type="text"
+            />
+          </th>
+          <th>
+            Song 
+            <i
+              className="fas fa-music"
+            />
+          </th>
+          <th>
+            <input
+              className="form-control orange-input"
+              name="album"
+              onChange={[Function]}
+              placeholder="Album"
+              type="text"
+            />
+          </th>
+          <th>
+            Release Year
+          </th>
+          <th>
+            Format
+          </th>
+          <th
+            className="text-center"
+          >
+            Play/Pause
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="pagination-container"
+      >
+        <tr
+          className="text-center"
+        >
+          <td>
+            1
+          </td>
+          <td>
+            test 1
+          </td>
+          <td>
+            test 1
+          </td>
+          <td>
+            test 1
+          </td>
+          <td>
+            2018
+          </td>
+          <td>
+            .mp3
+          </td>
+          <td>
+            <div>
+              <audio>
+                <source
+                  src="http://docs.google.com/uc?export=open&id=http://docs.google.com/uc?export=open&id=sadas231231sa"
+                />
+              </audio>
+              <div
+                className="col-md-12 row"
+              >
+                <div
+                  className="audio-controls col-md-6"
+                >
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-play "
+                      onClick={[Function]}
+                    />
+                  </span>
+                  <span
+                    className="btn btn-default"
+                  >
+                    <i
+                      className="fas fa-pause filled-icon"
+                      onClick={[Function]}
+                    />
+                  </span>
+                </div>
+                <div
+                  className="col-md-6"
+                >
+                  <span>
+                    <input
+                      className="slider"
+                      max="100"
+                      min="0"
+                      name="volume"
+                      onChange={[Function]}
+                      step="1"
+                      type="range"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

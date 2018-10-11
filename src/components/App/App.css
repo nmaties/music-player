@@ -1,0 +1,29 @@
+.table-black {
+    background-color: black;
+}
+
+table.table-black {
+    margin-bottom: 0;
+    border-width: thin;
+    border-color: orange;
+}
+
+table.table-black > thead > tr > th {
+    border-width: thin;
+    border-color: orange;
+
+}
+
+table.table-black > tbody > tr > td {
+    border-width: thin;
+    border-color: orange;
+}
+
+.orange-input {
+    background-color: orange !important;
+    border-color: darkorange !important;
+}
+
+.text-darkorange {
+    color: darkorange;
+}

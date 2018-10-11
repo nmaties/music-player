@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AudioPlayer Snapshots is displayed fine 1`] = `
+<div>
+  <audio>
+    <source
+      src="1GYwj2eL61SkOOEsGakyTgNpong37WCWv"
+    />
+  </audio>
+  <div
+    className="col-md-12 row"
+  >
+    <div
+      className="audio-controls col-md-6"
+    >
+      <span
+        className="btn btn-default"
+      >
+        <i
+          className="fas fa-play "
+          onClick={[Function]}
+        />
+      </span>
+      <span
+        className="btn btn-default"
+      >
+        <i
+          className="fas fa-pause filled-icon"
+          onClick={[Function]}
+        />
+      </span>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <span>
+        <input
+          className="slider"
+          max="100"
+          min="0"
+          name="volume"
+          onChange={[Function]}
+          step="1"
+          type="range"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AudioPlayer Snapshots is displayed fine paused state 1`] = `
+<div>
+  <audio>
+    <source
+      src="1GYwj2eL61SkOOEsGakyTgNpong37WCWv"
+    />
+  </audio>
+  <div
+    className="col-md-12 row"
+  >
+    <div
+      className="audio-controls col-md-6"
+    >
+      <span
+        className="btn btn-default"
+      >
+        <i
+          className="fas fa-play "
+          onClick={[Function]}
+        />
+      </span>
+      <span
+        className="btn btn-default"
+      >
+        <i
+          className="fas fa-pause filled-icon"
+          onClick={[Function]}
+        />
+      </span>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <span>
+        <input
+          className="slider"
+          max="100"
+          min="0"
+          name="volume"
+          onChange={[Function]}
+          step="1"
+          type="range"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AudioPlayer Snapshots is displayed fine playing state 1`] = `
+<div>
+  <audio>
+    <source
+      src="1GYwj2eL61SkOOEsGakyTgNpong37WCWv"
+    />
+  </audio>
+  <div
+    className="col-md-12 row"
+  >
+    <div
+      className="audio-controls col-md-6"
+    >
+      <span
+        className="btn btn-default"
+      >
+        <i
+          className="fas fa-play filled-icon"
+          onClick={[Function]}
+        />
+      </span>
+      <span
+        className="btn btn-default"
+      >
+        <i
+          className="fas fa-pause "
+          onClick={[Function]}
+        />
+      </span>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <span>
+        <input
+          className="slider"
+          max="100"
+          min="0"
+          name="volume"
+          onChange={[Function]}
+          step="1"
+          type="range"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="col-md-12 row"
+  >
+    <div
+      className="col-md-6"
+    >
+      00:01:15
+    </div>
+    <div
+      className="audio-duration col-md-6 audio-visualizer"
+    />
+  </div>
+</div>
+`;

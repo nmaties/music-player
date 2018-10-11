@@ -1,0 +1,19 @@
+html, body {
+    font-family: monospace;
+    background-color: orange;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.border-orange {
+    border-color: orange;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}

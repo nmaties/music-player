@@ -1,0 +1,49 @@
+.audio-visualizer{
+    background:  url(https://media.giphy.com/media/4HtL2Lu70WgdJeTICr/giphy.gif) no-repeat no-repeat center center;
+    background-size: cover;
+    height: 22px;
+    display: inline-block;
+    width: 130px;
+}
+
+.filled-icon {
+    color: darkorange;
+}
+
+.audio-duration{
+}
+
+.audio-controls > span {
+    margin-right: 5px;
+}
+
+.slider {
+    margin-top: 14px;
+    -webkit-appearance: none;
+    height: 10px;
+    background: orange;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: darkorange;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: darkorange;
+    cursor: pointer;
+}
