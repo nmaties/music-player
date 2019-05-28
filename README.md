@@ -14,4 +14,4 @@ if (song link (GET) requests > 100) {
 }
 ```
 
-MASTER BRANCH DEPLOYED HERE - (DEMO) : https://your-music-player.herokuapp.com/
+(DEMO) : https://your-music-player.herokuapp.com/
